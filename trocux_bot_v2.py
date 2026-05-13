@@ -5,7 +5,8 @@ from telegram import Update
 from telegram.ext import Application, ChatJoinRequestHandler, ContextTypes
 
 # ===== НАСТРОЙКИ =====
-BOT_TOKEN = os.environ.get("8923267714:AAFyUrBkxR_jFvuMOfPB7TIYwNpdsy_gQCU")   # Вставь свой токен
+import os
+BOT_TOKEN = os.environ.get("8923267714:AAEy1Cro9cDxlK9Aym3PtuNfa8-KvvXKaS8")
 DELAY_SECONDS = 2 * 60          # 2 минуты
 DAILY_LIMIT = 400               # Максимум одобрений в день
 # =====================
